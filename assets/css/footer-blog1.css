@@ -1,0 +1,136 @@
+a {
+  text-decoration: none;
+  color: hsl(251, 96%, 82%);
+  font-family: "Ubuntu", sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 100;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.related-posts-container {
+  background-color: hsla(0, 0%, 80%, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.related-posts {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 75%;
+  font-size: 27px;
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 10px;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 75%;
+  margin: 5px;
+}
+
+.related-news {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.related-news-first {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+  padding-right: 40px;
+}
+
+.related-news-second {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+  padding-right: 40px;
+}
+
+.related-news-third {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 75%;
+}
+
+.trademarks {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0;
+}
+
+.footer-navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.footer-button {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-button-legal {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
